@@ -1,28 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressAOP", "ExpressAOP\ExpressAOP.csproj", "{30D4BA27-4784-4DE3-AD4B-2B0AA53C6772}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressAOP.Test", "ExpressAOP.Test\ExpressAOP.Test.csproj", "{7054D3F4-8935-4FA7-B3CA-9996D39C5755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressAOP.V4.5", "ExpressAOP.V4.5\ExpressAOP.V4.5.csproj", "{9437D24C-E07E-47DD-805B-AC90BF0190BC}"
-EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs05
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ExpressAOP\\ExpressAOP.csproj
-		SccProjectName1 = ExpressAOP
-		SccLocalPath1 = ExpressAOP
-		SccProjectUniqueName2 = ExpressAOP.Test\\ExpressAOP.Test.csproj
-		SccProjectName2 = ExpressAOP.Test
-		SccLocalPath2 = ExpressAOP.Test
-		SccProjectUniqueName3 = ExpressAOP.V4.5\\ExpressAOP.V4.5.csproj
-		SccProjectName3 = ExpressAOP.V4.5
-		SccLocalPath3 = ExpressAOP.V4.5
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
@@ -54,16 +39,6 @@ Global
 		{7054D3F4-8935-4FA7-B3CA-9996D39C5755}.Release|ARM.ActiveCfg = Release|Any CPU
 		{7054D3F4-8935-4FA7-B3CA-9996D39C5755}.Release|x64.ActiveCfg = Release|Any CPU
 		{7054D3F4-8935-4FA7-B3CA-9996D39C5755}.Release|x86.ActiveCfg = Release|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Release|ARM.ActiveCfg = Release|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Release|x64.ActiveCfg = Release|Any CPU
-		{9437D24C-E07E-47DD-805B-AC90BF0190BC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
