@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ExpressAOP</id>
+    <version>$version$</version>
+    <title>ExpressAOP</title>
+    <authors>chsword</authors>
+    <owners>chsword</owners>
+    <projectUrl>https://github.com/chteam/expressaop</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .NET AOP Tools</description>
+    <summary>A .NET AOP Tools</summary>
+    <copyright>chsword.net</copyright>
+    <language />
+    <tags>aop</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
