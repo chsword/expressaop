@@ -1,5 +1,6 @@
 # Express AOP
-[![install from nuget](http://img.shields.io/nuget/v/expressaop.svg?style=flat-square)](https://www.nuget.org/packages/expressaop)[![![Build status](https://ci.appveyor.com/api/projects/status/3665h8dcncl6nlhv?svg=true)](https://ci.appveyor.com/project/chsword/expressaop)
+[![install from nuget](http://img.shields.io/nuget/v/expressaop.svg?style=flat-square)](https://www.nuget.org/packages/expressaop)
+[![Build status](https://ci.appveyor.com/api/projects/status/3665h8dcncl6nlhv?svg=true)](https://ci.appveyor.com/project/chsword/expressaop)
 
 ### NuGet Install
 ``` powershell
