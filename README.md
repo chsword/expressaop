@@ -1,10 +1,10 @@
 # Express AOP
-[![install from nuget](http://img.shields.io/nuget/v/expressaop.svg?style=flat-square)](https://www.nuget.org/packages/expressaop)[![downloads](http://img.shields.io/nuget/dt/expressaop.svg?style=flat-square)](https://www.nuget.org/packages/expressaop)
+[![install from nuget](http://img.shields.io/nuget/v/expressaop.svg?style=flat-square)](https://www.nuget.org/packages/expressaop)[![![Build status](https://ci.appveyor.com/api/projects/status/3665h8dcncl6nlhv?svg=true)](https://ci.appveyor.com/project/chsword/expressaop)
+
 ### NuGet Install
 ``` powershell
 PM> Install-Package ExpressAOP
 ```
-
 
 ###　Test case
 You can define a fillter like this:
@@ -36,7 +36,7 @@ eg: You have a class like following:
 ```
 And you want the filter is working on the Method.
 You have 2 methods to use the filter;
-! 1.Use the ContextBoundObject baseclass
+### 1.Use the ContextBoundObject baseclass
 ```c#
     [AOPProxy]// Use the AOP
     class MyModel2 : ContextBoundObject// baseclass
@@ -65,7 +65,7 @@ I write a test case for this way:
 ```
 It'll be working well.
 
-! 2.Use the Interface
+### 2.Use the Interface
 You must impl a interface for your class
 ```c#
     public interface IMyModel
@@ -97,7 +97,7 @@ And use this code:
 ```
 It'll be running.
 
-! 3.Other
+### 3.Other
 You can use Filter like this:
 ```c#
     [MyFilter("I:filter")]
